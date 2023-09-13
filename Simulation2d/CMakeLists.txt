@@ -13,10 +13,10 @@ endif()
 
 find_package(Eigen3 REQUIRED)
 
-find_package(PythonInterp 3.5 REQUIRED)
-find_package(PythonLibs 3.5 REQUIRED)
+find_package(PythonInterp 3.10 REQUIRED)
+find_package(PythonLibs 3.10 REQUIRED)
 
-find_package(Boost REQUIRED COMPONENTS system python-py36)
+find_package(Boost REQUIRED COMPONENTS system python310)
 
 
 #find_package(SDL2 REQUIRED)
